@@ -1,0 +1,71 @@
+/* HEADER*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color:#E3E3E3;
+  font-family: "arial",verdana, sans serif;
+  font-size: 96%;
+}
+
+.header{
+  background-color: #000;
+  height:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+/*CONTENAIR*/
+
+
+#wrapper {
+  margin:0 auto;
+  background-color:#F2F2F2;
+  height:auto;
+  width:95%;
+}
+
+
+.maininfo {
+  background-color:#000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.maininfo div{
+  float: left;
+  margin-left:2em;
+  width:30%;
+  background-color: #2ECCA0;
+}
+
+.border{
+  clear: both;
+}
+
+
+
+
+
+
+
+.school {
+  clear: left;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+  background-color: #000;
+  height:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}

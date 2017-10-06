@@ -6,7 +6,7 @@
 
 
 body {
-  margin: 0;
+  margin:0;
   background-color:#E3E3E3;
   font-family: "arial",verdana, sans serif;
   font-size: 96%;
@@ -32,23 +32,28 @@ body {
 
 
 .maininfo {
-  background-color:#000;
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
   text-align: center;
 }
 
+
+
 .maininfo section{
   float: left;
   margin-left:2em;
   width:30%;
-  background-color: #2ECCA0;
+  background-color: #30CC95;
+  height: auto;
 }
+
+
 
 .border{
   clear: both;
 }
+
 
 
 
@@ -63,8 +68,24 @@ body {
 header img {
   width:  100px;
   height: 100px;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,9 +104,23 @@ header img {
 
 
 h1,h2,h3 {
-font-family:'montserratbold';
-
+font-family:'montserratmedium';
+margin-bottom: :1em;
+padding-top: 1em;
+color: white;
 }
+
+.second {
+  border-top:1px dashed white;
+  border-bottom:1px dashed white;
+  padding-bottom: 1em;
+}
+
+.big {
+  font-size:1.8em;
+  font-family:'montserratbold';
+}
+
 
 .second, .whiteinfo {
   color: #fff;
@@ -94,20 +129,33 @@ font-family:'montserratbold';
 .maintitle{
   color: #fff;
   margin: 0;
-  display:block;
-  float:right;
-  padding-top: 1em;
-
+  padding-left: 1em;
 }
+
+
+
+
 
 p {
   text-align: center;
   color: white;
-  font-size: 1.2
-em;
-  line-height: 1.5 em;
+  font-size: 1.2em;
+  line-height: 1.5em;
   font-family: "Trebuchet Ms", arial,sans-serif;
 }
+
+
+
+
+ul li{
+  list-style-type: none;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-family: "Trebuchet Ms", arial,sans-serif;
+  text-align: left;
+}
+
 
 
 
@@ -121,7 +169,6 @@ em;
     font-style: normal;
 
 }
-
 
 
 
